@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💳 Loan Default Prediction
+# 🏠 Loan Default Prediction
 
 ### Regularisation, Feature Importance, and Fairness on the Home Credit Default Risk Dataset
 
