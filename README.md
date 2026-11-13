@@ -92,7 +92,7 @@ The notebook downloads `application_train.csv` automatically from a public Googl
 ```
 loan-default-prediction/
 │
-├── MLDL_FinalExamCode_Group30.ipynb   # Consolidated notebook, runs end to end top to bottom
+├── loan_default_prediction.ipynb      # Consolidated notebook, runs end to end top to bottom
 │
 ├── data/
 │   └── Data.7z                        # Backup of application_train.csv (not used by the notebook)
@@ -128,7 +128,7 @@ loan-default-prediction/
    ```bash
    pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn xgboost tensorflow gdown joblib scipy
    ```
-3. Open `MLDL_FinalExamCode_Group30.ipynb` and run all cells top to bottom.
+3. Open `loan_default_prediction.ipynb` and run all cells top to bottom.
 
 The notebook downloads the data automatically, creates `data/`, `checkpoints/`, and `outputs/` next to itself on the first run, and checkpoints expensive steps so re-runs only redo what changed. No manual download, no API key, no setup beyond `pip install`.
 
